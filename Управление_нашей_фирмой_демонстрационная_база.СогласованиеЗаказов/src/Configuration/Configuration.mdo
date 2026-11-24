@@ -43,6 +43,7 @@
     </extension>
     <languageCode>ru</languageCode>
   </languages>
+  <subsystems>Subsystem.Согл_Согласование</subsystems>
   <styleItems>StyleItem.ЗапрещенноеПравоДоступаЦвет</styleItems>
   <styleItems>StyleItem.ТекстВторостепеннойНадписи</styleItems>
   <styleItems>StyleItem.ЦветНадписейМонитораРуководителя</styleItems>
