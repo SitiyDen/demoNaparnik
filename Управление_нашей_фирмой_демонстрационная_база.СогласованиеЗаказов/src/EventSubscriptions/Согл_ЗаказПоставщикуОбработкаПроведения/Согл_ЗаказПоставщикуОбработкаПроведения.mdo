@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="24ce83c6-bc88-4d79-ab5e-d79cb2725225">
+  <name>Согл_ЗаказПоставщикуОбработкаПроведения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Согласование заказа: проведение заказа поставщику</value>
+  </synonym>
+  <source>
+    <types>DocumentObject.ЗаказПоставщику</types>
+  </source>
+  <event>Posting</event>
+  <handler>CommonModule.Согл_СогласованиеЗаказовСервер.Согл_ЗаказПоставщикуОбработкаПроведения</handler>
+</mdclass:EventSubscription>

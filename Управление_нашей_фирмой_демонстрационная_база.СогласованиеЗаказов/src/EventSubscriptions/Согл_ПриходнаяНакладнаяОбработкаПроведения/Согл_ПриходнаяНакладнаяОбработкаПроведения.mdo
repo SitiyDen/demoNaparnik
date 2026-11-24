@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="efeb16e9-7676-4e54-83d6-205aa65eecfe">
+  <name>Согл_ПриходнаяНакладнаяОбработкаПроведения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Согласование заказа: проведение приходной накладной</value>
+  </synonym>
+  <source>
+    <types>DocumentObject.ПриходнаяНакладная</types>
+  </source>
+  <event>Posting</event>
+  <handler>CommonModule.Согл_СогласованиеЗаказовСервер.Согл_ПриходнаяНакладнаяОбработкаПроведения</handler>
+</mdclass:EventSubscription>

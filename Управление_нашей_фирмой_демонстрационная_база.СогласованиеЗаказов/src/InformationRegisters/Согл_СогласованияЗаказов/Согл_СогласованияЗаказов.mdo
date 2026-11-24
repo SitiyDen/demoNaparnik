@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="df166c19-6a07-41e9-91e1-ebe703bec6db">
+  <producedTypes>
+    <selectionType typeId="597e7ce1-652b-4a64-9dec-f56959906328" valueTypeId="790f7632-52af-48a4-8e44-0e88c27f1373"/>
+    <listType typeId="8d717347-12b8-49fb-85cd-5726d67c819e" valueTypeId="45989178-0d24-4c5c-9e65-e09b21777a8a"/>
+    <managerType typeId="481db5e5-6488-4179-8043-2dfdefa1748e" valueTypeId="9aafcda9-a30c-46d1-9930-d19629fbe9a4"/>
+    <recordSetType typeId="fa49ff0a-8e3a-4fc6-8c9d-c5cde919571e" valueTypeId="0a39500d-ce16-45a4-a382-03688fff6f5c"/>
+    <recordKeyType typeId="61c6f2b5-56d7-4505-9364-7601ecdc6716" valueTypeId="fbb857b2-eb75-4c07-8888-7d2ee5896883"/>
+    <recordType typeId="5c0a2537-cf78-4f2a-a523-b8cda7a4177f" valueTypeId="690dbdab-3e6c-4955-9693-2ddfd1de4c94"/>
+    <recordManagerType typeId="03c7f7fb-bdd0-4249-987d-f906b2ce29c6" valueTypeId="3be5a20a-ee14-4662-bb8b-dae5d2925b1f"/>
+  </producedTypes>
+  <name>Согл_СогласованияЗаказов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Согласования заказов поставщику</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <recordPresentation>
+    <key>ru</key>
+    <value>Состояние согласования заказа</value>
+  </recordPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Состояния согласования заказов</value>
+  </listPresentation>
+  <resources uuid="b336fc0f-8aca-4cba-bba5-f378c4f74429">
+    <name>Согласование</name>
+    <synonym>
+      <key>ru</key>
+      <value>Согласование</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.Согл_СогласованиеЗаказа</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="71d3e9b5-edf2-4014-ad36-96e52c190729">
+    <name>Согласующий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Согласующий</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="be4cf817-b9be-4ec8-b6f7-d87cf69a8fa0">
+    <name>Статус</name>
+    <synonym>
+      <key>ru</key>
+      <value>Статус</value>
+    </synonym>
+    <type>
+      <types>EnumRef.Согл_СтатусыСогласования</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="e9af1e6e-0b7e-42a2-8e38-be5b998ea3e8">
+    <name>ДатаСогласования</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата согласования</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="f01177d3-cc12-4f25-85a3-2178daa5d2ee">
+    <name>КонтрольнаяСумма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контрольная сумма</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="540bb0ec-de6e-46c0-bde8-552efffb6ab0">
+    <name>ХешСостава</name>
+    <synonym>
+      <key>ru</key>
+      <value>Состав заказа</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>40</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="ccc6cb63-7c05-4fc7-90e6-d328bb1dec75">
+    <name>ЗаказПоставщику</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заказ поставщику</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.ЗаказПоставщику</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

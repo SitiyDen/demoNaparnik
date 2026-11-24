@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fbb719d1-8192-4fa9-b92d-04d5f6990362">
+  <name>Согл_СогласованиеЗаказовСервер</name>
+  <synonym>
+    <key>ru</key>
+    <value>Согласование заказов (серверный модуль)</value>
+  </synonym>
+  <comment>Серверная бизнес-логика согласования заказов поставщику</comment>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>

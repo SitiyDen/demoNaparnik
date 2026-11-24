@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c782db70-e24b-43a2-87f3-1566a2b0ae53">
+  <producedTypes>
+    <selectionType typeId="eb0d67af-b89f-424f-be81-bd65513920c1" valueTypeId="b616e1cc-ffaa-40c5-b45c-454f126e5d5e"/>
+    <listType typeId="318c7332-7db2-4f99-8adf-d37da63627ca" valueTypeId="d6beb107-a2aa-4174-a53e-38d8298f5032"/>
+    <managerType typeId="79dbe8c2-8ead-4610-b740-47626e9f4343" valueTypeId="781fcbd7-bfbd-405d-b6e3-8e230e5b97ab"/>
+    <recordSetType typeId="4f2d56ff-ba02-4797-ac6f-f4a357419380" valueTypeId="cb300ae6-9bd9-4068-9e58-e53a0e25b82a"/>
+    <recordKeyType typeId="22d3476c-a3bc-4023-bf20-8a373ad26ce5" valueTypeId="c8064296-094e-449a-ad24-692899ea0b13"/>
+    <recordType typeId="8dc0fab6-eec2-479b-aa3a-a6f4c96da52c" valueTypeId="ad2d017a-df02-4dcf-9e91-8ba445085628"/>
+    <recordManagerType typeId="3c4ca491-0e35-47e9-aabe-ede606a99a10" valueTypeId="7af1de1f-51b8-4464-bb10-17f4484d2b68"/>
+  </producedTypes>
+  <name>Согл_ПравилаСогласованияЗаказов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Правила согласования заказов поставщику</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultListForm>InformationRegister.Согл_ПравилаСогласованияЗаказов.Form.ФормаСписка</defaultListForm>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <recordPresentation>
+    <key>ru</key>
+    <value>Правило согласования заказов</value>
+  </recordPresentation>
+  <resources uuid="ed8a38be-a6f0-410f-872c-d914f0e0513c">
+    <name>МинимальнаяСумма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Минимальная сумма</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="aaa27d93-b8a5-4cd3-9627-c9dd8add4fb5">
+    <name>МаксимальнаяСумма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Максимальная сумма</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="d4971818-53cf-4753-8bdf-68e20a60538b">
+    <name>Порядок</name>
+    <synonym>
+      <key>ru</key>
+      <value>Порядок</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>5</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="80b0f993-d592-4278-ad1b-4c77b80a2919">
+    <name>Действует</name>
+    <synonym>
+      <key>ru</key>
+      <value>Действует</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="1333b239-6b57-46b7-83cf-b95f7d76c4b7">
+    <name>РольСогласующего</name>
+    <synonym>
+      <key>ru</key>
+      <value>Роль согласующего</value>
+    </synonym>
+    <type>
+      <types>EnumRef.Согл_РолиСогласующих</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="f4f4f9ed-8d93-4cf2-87d1-bb959fbdb8ac">
+    <name>Согласующий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Согласующий</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="0b651031-940b-45b8-a5dd-9498798f6c0b">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Правила согласования заказов поставщику</value>
+    </synonym>
+  </forms>
+</mdclass:InformationRegister>

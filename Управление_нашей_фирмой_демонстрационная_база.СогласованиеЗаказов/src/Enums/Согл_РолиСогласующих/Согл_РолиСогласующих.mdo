@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fe94c8ce-4027-48a2-b39d-1f5a6d918885">
+  <producedTypes>
+    <refType typeId="18a97a0f-7880-4bc1-90e9-b41d553cb8fb" valueTypeId="f2249900-7677-4a41-9c87-b687442ed606"/>
+    <listType typeId="173d0f30-d7e4-4491-a42d-0fe405f20126" valueTypeId="478725e5-c9a0-44e7-8010-ce4a609b4590"/>
+    <managerType typeId="ae03c3e5-2559-4db0-8c64-90ae57174e30" valueTypeId="841e902e-d519-47ec-b9e2-ea8e1b2e14ac"/>
+  </producedTypes>
+  <name>Согл_РолиСогласующих</name>
+  <synonym>
+    <key>ru</key>
+    <value>Роли согласующих</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="578210f2-8c65-4bf3-bf19-874877811820">
+    <name>РуководительОтделаСнабжения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Руководитель отдела снабжения</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="cf01ab6f-0dec-4206-ab2d-ec89f5e1a79e">
+    <name>ФинансовыйДиректор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Финансовый директор</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="7408e2b6-55a7-4e87-a9a7-77246c0bea6e">
+    <name>Директор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Директор</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="d82a85f3-6d23-478a-b181-9d9d6e4d83f5">
+    <name>НачальникОтделаЗакупок</name>
+    <synonym>
+      <key>ru</key>
+      <value>Начальник отдела закупок</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="6d0544d9-45fd-4ca1-a7ef-90bae6dd11c6">
+    <name>КоммерческийДиректор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Коммерческий директор</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="a5fb2d6f-7e7a-421f-b103-ab9cf581fce4">
+    <name>ГлавныйБухгалтер</name>
+    <synonym>
+      <key>ru</key>
+      <value>Главный бухгалтер</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="64feb646-23aa-42d8-866b-5086cd73a5a8">
+    <name>HR</name>
+    <synonym>
+      <key>ru</key>
+      <value>HR</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

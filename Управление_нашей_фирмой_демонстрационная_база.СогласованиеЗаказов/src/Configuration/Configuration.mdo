@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="4a95f53a-15e2-4893-bbd2-3ef71e4b5c3f">
+  <name>СогласованиеЗаказов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Согласование заказов</value>
+  </synonym>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:ConfigurationExtension">
+    <defaultRunMode>Checked</defaultRunMode>
+    <usePurposes>Checked</usePurposes>
+    <commandInterface>Extended</commandInterface>
+    <mainSectionCommandInterface>Extended</mainSectionCommandInterface>
+    <defaultLanguage>Checked</defaultLanguage>
+    <interfaceCompatibilityMode>Checked</interfaceCompatibilityMode>
+    <compatibilityMode>Checked</compatibilityMode>
+    <defaultRoles>Extended</defaultRoles>
+  </extension>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="3a04265c-29d4-455a-a2be-b5e9a73ae7e7"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="9eb4cde0-b484-416e-bd4b-8a2a3426bce0"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="e3ac82a6-50fc-4431-af13-604d499bf0e9"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="946b4d52-c018-496d-ae65-ad2eedef6317"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="8c07433a-8c7c-4a9e-8c44-f01ac1ac9d84"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="cf46d589-feed-431d-a685-8dfdf9fea609"/>
+  <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="34a2bdb7-347c-44d3-a505-2f540aa825c4"/>
+  <keepMappingToExtendedConfigurationObjectsByIDs>true</keepMappingToExtendedConfigurationObjectsByIDs>
+  <namePrefix>Согл_</namePrefix>
+  <configurationExtensionCompatibilityMode>8.5.1</configurationExtensionCompatibilityMode>
+  <configurationExtensionPurpose>Customization</configurationExtensionPurpose>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>PersonalComputer</usePurposes>
+  <scriptVariant>Russian</scriptVariant>
+  <defaultRoles>Role.Согл_ОсновнаяРоль</defaultRoles>
+  <defaultLanguage>Language.Русский</defaultLanguage>
+  <interfaceCompatibilityMode>TaxiEnableVersion8_5</interfaceCompatibilityMode>
+  <compatibilityMode>8.5.1</compatibilityMode>
+  <languages uuid="f4647d1a-5726-41a6-b471-e38d40947a80" extendedConfigurationObject="af1b61ff-d1b9-4053-ad85-8259b6626adc">
+    <name>Русский</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:LanguageExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <languageCode>Checked</languageCode>
+    </extension>
+    <languageCode>ru</languageCode>
+  </languages>
+  <styleItems>StyleItem.ЗапрещенноеПравоДоступаЦвет</styleItems>
+  <styleItems>StyleItem.ТекстВторостепеннойНадписи</styleItems>
+  <styleItems>StyleItem.ЦветНадписейМонитораРуководителя</styleItems>
+  <commonPictures>CommonPicture.ДлительнаяОперация48</commonPictures>
+  <commonPictures>CommonPicture.Дополнительно</commonPictures>
+  <commonPictures>CommonPicture.ИзображениеНеОсновное</commonPictures>
+  <commonPictures>CommonPicture.ИзображениеОсновное</commonPictures>
+  <commonPictures>CommonPicture.КнопкаВыпадающегоСписка</commonPictures>
+  <commonPictures>CommonPicture.РазделАдминистрирование</commonPictures>
+  <commonPictures>CommonPicture.СтрелкаВлевоБольшая</commonPictures>
+  <commonPictures>CommonPicture.СтрелкаВправоБольшая</commonPictures>
+  <roles>Role.Согл_ОсновнаяРоль</roles>
+  <commonModules>CommonModule.Согл_СогласованиеЗаказовВызовСервера</commonModules>
+  <commonModules>CommonModule.Согл_СогласованиеЗаказовСервер</commonModules>
+  <eventSubscriptions>EventSubscription.Согл_ЗаказПоставщикуОбработкаПроведения</eventSubscriptions>
+  <eventSubscriptions>EventSubscription.Согл_ЗаказПоставщикуПриЗаписи</eventSubscriptions>
+  <eventSubscriptions>EventSubscription.Согл_ПриходнаяНакладнаяОбработкаПроведения</eventSubscriptions>
+  <catalogs>Catalog.Контрагенты</catalogs>
+  <catalogs>Catalog.Номенклатура</catalogs>
+  <catalogs>Catalog.Организации</catalogs>
+  <catalogs>Catalog.Пользователи</catalogs>
+  <catalogs>Catalog.СостоянияЗаказовПоставщикам</catalogs>
+  <catalogs>Catalog.Сотрудники</catalogs>
+  <catalogs>Catalog.ХарактеристикиНоменклатуры</catalogs>
+  <documents>Document.ЗаказПоставщику</documents>
+  <documents>Document.ПриходнаяНакладная</documents>
+  <documents>Document.Согл_СогласованиеЗаказа</documents>
+  <enums>Enum.ВидыМаркировки</enums>
+  <enums>Enum.Согл_РолиСогласующих</enums>
+  <enums>Enum.Согл_СтатусыСогласования</enums>
+  <enums>Enum.СпособыПополненияЗапасов</enums>
+  <enums>Enum.СрокДействияПодарочныхСертификатов</enums>
+  <enums>Enum.ТипыНоменклатуры</enums>
+  <informationRegisters>InformationRegister.Согл_ПравилаСогласованияЗаказов</informationRegisters>
+  <informationRegisters>InformationRegister.Согл_СогласованияЗаказов</informationRegisters>
+</mdclass:Configuration>
