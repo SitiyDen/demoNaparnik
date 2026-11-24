@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="be612d68-11a8-45bf-a0f0-bd90c1dc9bcf">
+  <producedTypes>
+    <managerType typeId="82ef5f4a-646f-48c0-a6fc-52bd6be1d4d5" valueTypeId="6147fbb8-14c7-4d4d-a657-8aa21cd1467b"/>
+    <valueManagerType typeId="31800a1d-b7d5-4762-8662-c75b8c886f7f" valueTypeId="643b3e2d-5eed-42f0-b144-34f8f926a053"/>
+    <valueKeyType typeId="3396fe12-46fd-45c1-80ad-9394a875744d" valueTypeId="0f1ff0bf-7211-4250-9c5e-3320ecbe5b97"/>
+  </producedTypes>
+  <name>Согл_YandexGPTКаталог</name>
+  <synonym>
+    <key>ru</key>
+    <value>Идентификатор каталога Yandex Cloud</value>
+  </synonym>
+  <type>
+    <types>String</types>
+    <stringQualifiers>
+      <length>50</length>
+    </stringQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

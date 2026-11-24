@@ -55,11 +55,14 @@
   <commonPictures>CommonPicture.СтрелкаВлевоБольшая</commonPictures>
   <commonPictures>CommonPicture.СтрелкаВправоБольшая</commonPictures>
   <roles>Role.Согл_ОсновнаяРоль</roles>
+  <commonModules>CommonModule.Согл_YandexGPT</commonModules>
   <commonModules>CommonModule.Согл_СогласованиеЗаказовВызовСервера</commonModules>
   <commonModules>CommonModule.Согл_СогласованиеЗаказовСервер</commonModules>
   <eventSubscriptions>EventSubscription.Согл_ЗаказПоставщикуОбработкаПроведения</eventSubscriptions>
   <eventSubscriptions>EventSubscription.Согл_ЗаказПоставщикуПриЗаписи</eventSubscriptions>
   <eventSubscriptions>EventSubscription.Согл_ПриходнаяНакладнаяОбработкаПроведения</eventSubscriptions>
+  <constants>Constant.Согл_YandexGPTКаталог</constants>
+  <constants>Constant.Согл_YandexGPTКлючAPI</constants>
   <catalogs>Catalog.Контрагенты</catalogs>
   <catalogs>Catalog.Номенклатура</catalogs>
   <catalogs>Catalog.Организации</catalogs>
